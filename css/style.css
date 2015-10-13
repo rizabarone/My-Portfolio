@@ -55,6 +55,7 @@ head{
 	width: 970px;
 	height: 70px;
 	margin: 0 auto;
+
 }
 
 .top-navigation .links {
@@ -70,6 +71,8 @@ head{
 .top-navigation .links li {
 	display: inline-block;
 	margin-left: 20px;
+	font-size: 20px;
+	font-weight: 500px;
 }
 
 
@@ -100,17 +103,21 @@ head{
 	font-weight:600;
 	font-size: 30px;
 	line-height: 50px;
-	font-family: DIN Next W01",sans-serif;
+	font-family:"Helvetica Neue",Helvetica,sans-serif;
 
-}
-
-.skills {
 
 }
 /* Footer styles 
 	(all the styles inside the < footer > tag)
 */
+.footer{
+	background-color: #D8A1D1;
+	overflow: auto;
+	padding-bottom: 9.375rem;
+	text-align: center;
 
+
+}
 
 /* Responsive styles 
 	(the very last module in the CSS, contains all the media queries and it is dealing with the compatibility with mobiles and tablets)
