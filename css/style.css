@@ -25,7 +25,7 @@ html {
 }
 
 body {
-	background-color: black;
+	background-color: #f15a29;
 	font-family:"Helvetica Neue",Helvetica,sans-serif;
 	-webkit-font-smoothing:antialiased;
 }
@@ -61,10 +61,10 @@ head{
 .top-navigation .links {
 	float: left;
 	font-family: "Helvetica Neue",Helvetica,sans-serif;
-	color: #838994;
+	color: black;
+	font-weight: 300px;
 	font-size : 17px;
 	margin-top: 23px;
-	font-weight: 300px;
 	-webkit-font-smoothing: antialiased;
 }
 
@@ -111,13 +111,34 @@ head{
 	(all the styles inside the < footer > tag)
 */
 .footer{
-	background-color: #D8A1D1;
+	background-color: #f15a29;
 	overflow: auto;
 	padding-bottom: 9.375rem;
 	text-align: center;
 
-
 }
+
+.footer hr{
+	border: 0;
+	border-top: 1px solid white;
+}
+
+.footer h2{
+	color: gray;
+	margin-top: 15px;
+}
+
+.social .icons >li{
+	border-radius: 1.25rem;
+	width: 2.5rem;
+	height: 2.5rem;
+	display: inline-block;
+	margin: 1.25rem 5px;
+	border: 1px solid #eaebec;
+	padding: 0.625rem 0;
+	text-align: center;
+}
+
 
 /* Responsive styles 
 	(the very last module in the CSS, contains all the media queries and it is dealing with the compatibility with mobiles and tablets)
