@@ -46,9 +46,11 @@ head{
 
 /* Navigation Section */
 .top-navigation {
-	width: 86%;
-	margin: 0 auto;
-	position: relative;
+	position:fixed;
+	width: 100%;
+	z-index: 9999;
+	
+
 }
 
 .top-navigation > .content {
@@ -65,7 +67,13 @@ head{
 	font-weight: 300px;
 	font-size : 17px;
 	margin-top: 23px;
+	margin-left: 1.563rem;
+	word-spacing: 2rem;
 	-webkit-font-smoothing: antialiased;
+}
+
+ul > a {
+	text-decoration:none;
 }
 
 .top-navigation .links li {
@@ -73,6 +81,7 @@ head{
 	margin-left: 20px;
 	font-size: 20px;
 	font-weight: 500px;
+	font-family: "Open Sans", "Helvetica   Neue", sans-serif;
 }
 
 
@@ -104,9 +113,35 @@ head{
 	font-size: 30px;
 	line-height: 50px;
 	font-family:"Helvetica Neue",Helvetica,sans-serif;
-
-
 }
+
+#follow me{
+	left: 50%;
+	margin-left:-129px;
+	text-decoration: none;
+}
+
+
+
+.button.gray {
+	border: 2px solid #7ed321;
+	color: #454842;
+}
+
+.button{
+	border-radius: 60px;
+	font-family: "Helvetica Neue",Helvetica,sans-serif;
+	font-size: 20px;
+	line-height: 46px;
+	padding: 0 40px;
+	background: #D2B0B0;
+	display: inline-block;
+	cursor:pointer;
+	position:relative;
+	transition: .2s all linear;
+}
+
+
 /* Footer styles 
 	(all the styles inside the < footer > tag)
 */
@@ -139,6 +174,16 @@ head{
 	text-align: center;
 }
 
+span a{
+	text-decoration: none;
+	color: gray;
+}
+
+span {
+    text-align: center;
+ 	margin: 40px;
+
+}
 
 /* Responsive styles 
 	(the very last module in the CSS, contains all the media queries and it is dealing with the compatibility with mobiles and tablets)
