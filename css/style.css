@@ -25,7 +25,7 @@ html {
 }
 
 body {
-	background-color: #f15a29;
+	background-color: #72C9B9;
 	font-family:"Helvetica Neue",Helvetica,sans-serif;
 	-webkit-font-smoothing:antialiased;
 }
@@ -62,9 +62,8 @@ head{
 
 .top-navigation .links {
 	float: left;
-	font-family: "Helvetica Neue",Helvetica,sans-serif;
+	font-family: 'Josefin Sans', sans-serif;
 	color: black;
-	font-weight: 300px;
 	font-size : 17px;
 	margin-top: 23px;
 	margin-left: 1.563rem;
@@ -81,7 +80,8 @@ ul > a {
 	margin-left: 20px;
 	font-size: 20px;
 	font-weight: 500px;
-	font-family: "Open Sans", "Helvetica   Neue", sans-serif;
+	font-family: 'Josefin Sans', sans-serif;
+
 }
 
 
@@ -146,10 +146,11 @@ ul > a {
 	(all the styles inside the < footer > tag)
 */
 .footer{
-	background-color: #f15a29;
+	background-color: #E86750;
 	overflow: auto;
 	padding-bottom: 9.375rem;
 	text-align: center;
+
 
 }
 
