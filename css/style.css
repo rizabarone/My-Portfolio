@@ -25,7 +25,7 @@ html {
 }
 
 body {
-	background-color: #72C9B9;
+	background-color: white;
 	font-family:"Helvetica Neue",Helvetica,sans-serif;
 	-webkit-font-smoothing:antialiased;
 }
@@ -45,50 +45,65 @@ head{
 
 
 /* Navigation Section */
-.top-navigation {
-	position:fixed;
+#header  {
+	height: 1 px;
 	width: 100%;
-	z-index: 9999;
+	background-color: #FFF;
+}
+#top-bar {
+	background-image: url(images/top-bar_bg.jpg);
+	background-repeat: repeat-x;
+	width: 100%;
+	height: 9px;
+}
+
+
+/* ~~ Top Navigation Bar ~~ */
+.navigation-bar   {
+	background-color: #74c22e;
+	height: 100px;
+	width: 100%;
+	background-image: url(images/nav-bar_bg.png);
+	background-repeat: repeat-x;
 	
-
 }
 
-.top-navigation > .content {
-	width: 970px;
-	height: 70px;
-	margin: 0 auto;
-
+.navigation-bar ul   {
+	padding: 0px;
+	margin: 0px;
+  text-align:center;
+}
+.navigation-bar li    {
+	list-style-type: none;
+	padding: 0px;
+	height: 24px;
+	margin-top: 4px;
+	margin-bottom: 4px;
+  display:inline;
+  float:left;
+  
+}
+.navigation-bar li a    {
+	color: #5c7d3e;
+	background-color: #FFF;
+	font-size: 25px;
+	text-transform: uppercase;
+	font-family: "Trebuchet MS", Arial, Helvetica, sans-serif;
+	text-decoration: none;
+	box-shadow: 2xp 2px 3px inset;
+	border-radius: 5px;
+	padding-right: 1em;
+	padding-left: 1em;
+	line-height: 2em;
+	margin-right: 16px;
+}
+.navigation-bar li:first-child {
+	margin-left:20px;
+	border:#C00;
 }
 
-.top-navigation .links {
-	float: left;
-	font-family: 'Josefin Sans', sans-serif;
-	color: black;
-	font-size : 17px;
-	margin-top: 23px;
-	margin-left: 1.563rem;
-	word-spacing: 2rem;
-	-webkit-font-smoothing: antialiased;
-}
-
-ul > a {
-	text-decoration:none;
-}
-
-.top-navigation .links li {
-	display: inline-block;
-	margin-left: 20px;
-	font-size: 20px;
-	font-weight: 500px;
-	font-family: 'Josefin Sans', sans-serif;
-
-}
-
-
-.top-navigation .links li:hover {
-	cursor: pointer;
-	color: #333333;
-}
+    
+  
 
 
 
@@ -115,76 +130,7 @@ ul > a {
 	font-family:"Helvetica Neue",Helvetica,sans-serif;
 }
 
-#follow me{
-	left: 50%;
-	margin-left:-129px;
-	text-decoration: none;
-}
 
-
-
-.button.gray {
-	border: 2px solid #7ed321;
-	color: #454842;
-}
-
-.button{
-	border-radius: 60px;
-	font-family: "Helvetica Neue",Helvetica,sans-serif;
-	font-size: 20px;
-	line-height: 46px;
-	padding: 0 40px;
-	background: #D2B0B0;
-	display: inline-block;
-	cursor:pointer;
-	position:relative;
-	transition: .2s all linear;
-}
-
-
-/* Footer styles 
-	(all the styles inside the < footer > tag)
-*/
-.footer{
-	background-color: #E86750;
-	overflow: auto;
-	padding-bottom: 9.375rem;
-	text-align: center;
-
-
-}
-
-.footer hr{
-	border: 0;
-	border-top: 1px solid white;
-}
-
-.footer h2{
-	color: gray;
-	margin-top: 15px;
-}
-
-.social .icons >li{
-	border-radius: 1.25rem;
-	width: 2.5rem;
-	height: 2.5rem;
-	display: inline-block;
-	margin: 1.25rem 5px;
-	border: 1px solid #eaebec;
-	padding: 0.625rem 0;
-	text-align: center;
-}
-
-span a{
-	text-decoration: none;
-	color: gray;
-}
-
-span {
-    text-align: center;
- 	margin: 40px;
-
-}
 
 /* Responsive styles 
 	(the very last module in the CSS, contains all the media queries and it is dealing with the compatibility with mobiles and tablets)
